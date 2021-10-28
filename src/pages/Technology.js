@@ -12,7 +12,7 @@ const Technology = () => {
         setdestination(newTechnology)
     }
     return (
-        <>
+        <main>
             <div className="  pb-[81px] md:pb-[97px] lg:ml-[165px] lg:pb-[101px] ">
                 <div className="heading-5 text-center md:mx-[38.5px] md:mt-[40px] lg:mt-[76px]">
                     <span className="font-bold opacity-25 mr-4 lg:mr-[24px] ">03</span>
@@ -56,7 +56,7 @@ const Technology = () => {
                 tablet="technology/background-technology-tablet.jpg"
                 desktop="technology/background-technology-desktop.jpg"
             />
-        </>
+        </main>
     )
 }
 

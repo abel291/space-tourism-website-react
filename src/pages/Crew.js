@@ -13,7 +13,7 @@ const Crew = () => {
         setCrew(newCrew)
     }
     return (
-        <>
+        <main>
             <div className=" mx-[24px] md:mx-[38px]  lg:ml-[165px] lg:mr-[137px] ">
             
                 <div className=" flex flex-col-reverse md:flex-col lg:flex-row items-center lg:justify-between lg:items-end  text-white">
@@ -59,7 +59,7 @@ const Crew = () => {
                 tablet="crew/background-crew-tablet.jpg"
                 desktop="crew/background-crew-desktop.jpg"
             />
-        </>
+        </main>
     )
 }
 

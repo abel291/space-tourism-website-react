@@ -15,7 +15,7 @@ const Destination = () => {
         setdestination(newDestination)
     }
     return (
-        <>
+        <main>
             <div className="mx-6 md:mx-[38.5px] lg:mt-[76px] lg:ml-[165px] lg:mr-[163px] pb-[58px]">
                 <div className="heading-5 md:mt-10 text-center ">
                     <span className="font-bold opacity-25 mr-[18px] md:mr-[19px] lg:mr-7">01</span>
@@ -71,7 +71,7 @@ const Destination = () => {
                 tablet="destination/background-destination-tablet.jpg"
                 desktop="destination/background-destination-desktop.jpg"
             />
-        </>
+        </main>
     )
 }
 

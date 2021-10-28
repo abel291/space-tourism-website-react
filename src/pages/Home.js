@@ -4,8 +4,8 @@ import BackgroundImage from "../components/BackgroundImage"
 const Home = () => {
     return (
         <>
-            <div className="flex flex-col lg:flex-row items-center lg:items-end lg:justify-between  mx-[24px] mt-[24px] md:mt-[106px] lg:mt-[251px] lg:mx-[165px] bg-red-500 text-center pb-[48px] md:pb-[90px] lg:pb-[131px]">
-                <div className="space-y-[16px] md:space-y-[24px] md:w-[450px]">
+            <div className="flex flex-col lg:flex-row items-center lg:items-end lg:justify-between  mx-[24px] mt-[24px] md:mt-[106px] lg:mt-[251px] lg:mx-[165px] bg-red-500 pb-[48px] md:pb-[90px] lg:pb-[131px]">
+                <div className="space-y-[16px] md:space-y-[24px] md:w-[450px] text-center lg:text-left">
                     <span className="heading-5 text-secondary ">SO, YOU WANT TO TRAVEL TO</span>
                     <h1 className="heading-1">SPACE</h1>
                     <p className="text-secondary body-text md:w-[444px] lg:w-full">

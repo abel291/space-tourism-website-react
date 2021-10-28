@@ -1,4 +1,4 @@
-import { Disclosure, Transition } from "@headlessui/react"
+
 import { NavLink, useLocation } from "react-router-dom"
 import MenuMovil from "./MenuMovil"
 
@@ -41,7 +41,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="md:hidden z-50">
-                <MenuMovil itemSection={itemSection}/>
+                <MenuMovil itemSection={itemSection} />
                 </div>
             </div>
         </nav>
